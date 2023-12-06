@@ -3,3 +3,36 @@ body {
   height: 100%;
   margin: 0;
 }
+h1{
+  text-align: center ;
+}
+img{
+  display:block;
+  margin:auto;
+}
+.menu{
+  padding:0px 10px 0px 10px;
+  background-color: gray;
+}
+#primaryMenu{
+  display:grid;
+  place-items: center;
+}
+.menuBar{
+   float:left;
+    }
+#imageCaption{
+  font-size: 75%;
+}
+#featured-property p + p{
+  width: 800px;
+  text-align: center;
+}
+#details div{
+  float: left;
+}
+.finishingTouch{
+  background-color: firebrick;
+  text-align: center;
+  width: 25%;
+}
